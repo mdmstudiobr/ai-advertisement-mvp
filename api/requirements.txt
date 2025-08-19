@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+rembg
+opencv-python-headless
+python-multipart
+pillow
+requests
+onnxruntime
+openai
+python-dotenv
+replicate
