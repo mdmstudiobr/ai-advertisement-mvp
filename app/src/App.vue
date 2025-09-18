@@ -4,7 +4,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <h1>🚗 Motoreto: AI Car Ad Generator</h1>
         <div style="background: #007bff; color: white; padding: 0.5rem 1rem; border-radius: 4px; font-size: 0.9rem;">
-          v2.4.4 - Replicate Error Handling Fixed
+          v2.5.3 - Vehicle Color Change Test (Any Vehicle → Metallic Blue)
         </div>
       </div>
 
@@ -101,7 +101,7 @@
           </div>
           <!-- Coluna 3: Imagem Enhanced (Replicate) -->
           <div style="text-align: center; flex: 1 1 0;">
-            <h4 style="margin: 0 0 0.5rem 0; color: #9c27b0;">🎨 Enhanced (Replicate)</h4>
+            <h4 style="margin: 0 0 0.5rem 0; color: #9c27b0;">🎨 New Color (Replicate)</h4>
             <button @click="enhanceImageReplicate" :disabled="!file || replicateLoading" style="margin-bottom: 0.5rem;">
               {{ replicateLoading ? '🔄 Processing...' : '🎨 Replicate Enhancement' }}
             </button>
